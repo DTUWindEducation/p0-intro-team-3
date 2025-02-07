@@ -27,6 +27,7 @@ def test_gitanswers_notempty():
     assert file_size > 0  # throw an error if file size is 0
 
 
+
 def test_preclass_exists():
     """Verify that folder preclass_assignment exists."""
     # given
@@ -47,3 +48,7 @@ def test_preclass_notempty():
     contents = list(p.glob('*.py'))  # get list of all py files
     # then
     assert len(contents) > 0  # throw error if list is empty (length 0)
+
+
+    #just a test 
+    
