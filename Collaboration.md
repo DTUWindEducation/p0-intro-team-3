@@ -1,0 +1,1 @@
+I think we can work individually (me ex 2A and Mohamed 2B) using 2 different branches and then merge both in the main

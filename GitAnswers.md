@@ -17,8 +17,8 @@ git log --graph --oneline --all
 and it will be something like this: 
 
 o--o--o main branch
-   |
-   o new branch
+     |
+     o new branch
 
 7) not really sure what to do
 
