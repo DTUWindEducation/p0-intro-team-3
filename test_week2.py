@@ -35,7 +35,7 @@ def test_goldilocks(capsys):
     # Test case 4: Bed is just right (150 cm)
     fxn.goldilocks(150)
     captured = capsys.readouterr()
-    assert captured.out == "Just right. :))\n"
+    assert captured.out == "Just right. :)\n"
 
 
 def test_square_list():
@@ -58,9 +58,9 @@ def test_fibonacci_stop():
 
 
 def test_clean_pitch():
-    """Check clean_pitch works as expected."""
-    inp = "good MORNING"
-    exp_out = "good morning" 
-    out = fxn.clean_pitch(inp)
+    inp_angles = [-1, 2, 6, 95]  # "raw" pitch angel
+    inp_status = [1, 0, 0, 0]  # status signal
+    exp_out = [-999, 2, 6, 95] # output
+    out = fxn.clean_pitch(inp_angles, inp_status)
     assert exp_out == out
 
