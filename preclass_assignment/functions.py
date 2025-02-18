@@ -1,4 +1,3 @@
-ex_2A_Alessio
 # function es 1
 
 def greet(name):
@@ -20,7 +19,7 @@ def square_list(nums):
 
 #function es 4
 def fibonacci_stop(lim):
-    fib = [1, 1]  # Lista iniziale con i primi due numeri di Fibonacci
+    fib = [0, 1 ]  # Lista iniziale con i primi due numeri di Fibonacci
     while fib[-1] + fib[-2] < lim:  # Controlla la somma prima di aggiungerla
         fib.append(fib[-1] + fib[-2])  # Aggiunge il nuovo numero
 
